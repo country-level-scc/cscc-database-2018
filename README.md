@@ -1,5 +1,6 @@
-# cscc-database-2018
 Database of "Country-level social cost of carbon"
+
+# Description
 
 __run__: specifies the climate damages model ('bhm_lr': Burke, Hsiang & Miguel (2015) (BHM) long-run (5-lag) , pooled model;'bhm_richpoor_lr': BHM long-run, income-dependent (rich-poor) model; 'bhm_sr': BHM short-run (no lag), pooled model;'bhm_richpoor_sr': BHM short-run, income-dependent model; 'djo': Dell, Jones & Olken (2012) alternative impact function)
 
@@ -29,4 +30,14 @@ __83.3%__: high (83.3% percentile) CSCC
 
 Note: The 3 statistics (low, median, high CSCC) are the median of the posterior distribution of the statistics after bayesian bootstrapping, i.e. for low, the median of the posterior distribution of the 16.7% percentile.
 
-Cite: Ricke, K., L. Drouet, K. Caldeira and M. Tavoni. "Country-level social cost of carbon" (2018)
+if you make use of this database, please cite: 
+Ricke, K., L. Drouet, K. Caldeira and M. Tavoni. "Country-level social cost of carbon" (2018)
+
+# CHANGELOG
+
+v1 (26-16-2018)
+* Version published with the paper
+
+v2 (18-01-2019)
+* Update Rich/Poor threshold: 2268.528$ for BHM, 2449.36$ for djo_richpoor.
+* Use 5-lag DJO specification for DJO alternative specification.
